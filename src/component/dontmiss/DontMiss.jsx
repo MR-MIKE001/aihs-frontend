@@ -1,4 +1,4 @@
-import dontmiss from "../../assets/don'tmiss.JPEG";
+import dontmiss from "../../assets/dontmiss.JPEG";
 import Button from "../button/Button";
 
 function DontMiss() {

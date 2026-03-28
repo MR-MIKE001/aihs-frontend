@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import Button from "../button/Button";
 import usePageChange from "../../../zustand/pageChange";
-
+import logo from "../../assets/ahis_logo.png";
 function Nav() {
   const location = useLocation();
   const { changePage, page } = usePageChange();
@@ -23,7 +23,7 @@ function Nav() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-8">
         <div className="flex items-center gap-2">
           <img
-            src="/src/assets/ahis_logo.png"
+            src={logo}
             alt="AHIS Logo"
             className="h-10 w-16"
           />

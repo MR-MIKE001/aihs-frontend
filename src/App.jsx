@@ -1,9 +1,9 @@
 // src/App.jsx
 import { Routes, Route, Link } from "react-router-dom";
 import './App.css';
-import Home from "./pages/home";
-import About from "./pages/About";
-import Program from "./pages/program";
+import Home from './pages/Home';
+import About from './pages/About';
+import Program from './pages/Program';
 
 
 export default function App() {

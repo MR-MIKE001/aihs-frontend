@@ -9,7 +9,7 @@ import AppLayout from "../layout/AppLayout";
   return( 
 <AppLayout>
         <> 
-        <Hero Title="About Us" Subtitle="Learn more about AIHS" />
+        <Hero Title="About AHIS" Subtitle="Learn more about Africa International Housing Show (AIHS)" />
         <Forwho/>
         <WhyAhis/>
         <Experience/>

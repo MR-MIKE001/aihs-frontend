@@ -49,7 +49,7 @@ function LocationCard() {
               ></path>
             </svg>
           </div>
-          <p className="text-sm sm:text-base">July 15–17, 2026</p>
+          <p className="text-sm sm:text-base">July 13–18, 2026</p>
         </div>
       </div>
 

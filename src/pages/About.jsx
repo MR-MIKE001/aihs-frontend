@@ -1,12 +1,20 @@
+import Experience from "../component/experience/Experience";
+import Forwho from "../component/forwho/Forwho";
+import Hero from "../component/hero/Hero";
+import Join from "../component/join/Join";
+import WhyAhis from "../component/whyAhis/WhyAhis";
 import AppLayout from "../layout/AppLayout";
 
  function About() {
   return( 
-    <AppLayout>
-        <div> 
-          <h1 className="text-red">About page</h1>
-
-        </div>
+<AppLayout>
+        <> 
+        <Hero Title="About Us" Subtitle="Learn more about AIHS" />
+        <Forwho/>
+        <WhyAhis/>
+        <Experience/>
+        <Join/>
+        </>
 </AppLayout>
 
   );

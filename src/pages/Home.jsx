@@ -8,7 +8,8 @@ function Home() {
   return (
     <AppLayout>
         <main> 
-          <Hero/>
+          <Hero Title="Africa&apos;s Largest Housing Event" 
+          Subtitle="Meet investors, developers, and government leaders shaping Africa&apos;s housing market."/>
           <Location/>
           <Aihsfor/>
           <DontMiss/>

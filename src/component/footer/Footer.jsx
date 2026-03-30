@@ -80,15 +80,17 @@ function Footer() {
               <p className="mb-1 text-sm">
                 <span className="font-semibold text-[#cfc4c4]">Email:</span>{" "}
                 <a
-                  href="mailto:AIHSsupport@aihs.com"
+                  href="mailto:africahousingshow@gmail.com"
                   className="text-gray-300 hover:underline"
                 >
-                  AIHSsupport@aihs.com
+                  africahousingshow@gmail.com
                 </a>
               </p>
               <p className="mb-1 text-sm">
                 <span className="font-semibold text-[#cfc4c4]">Phone:</span>{" "}
-                +1 (123) 456-7890
+               <a href="tel:+2349165000000" className="text-gray-300 hover:underline">
+                 +234 916 500 0000
+                </a>
               </p>
               <p className="mb-1 text-sm">
                 <span className="font-semibold text-[#cfc4c4]">Address:</span>{" "}

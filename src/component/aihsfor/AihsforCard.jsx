@@ -30,7 +30,7 @@ const infoData = [
 
 function AihsforCard() {
   return (
-    <div className="grid grid-cols-1 sm:pl-8 gap-6 sm:grid-cols-2 lg:grid-cols-4 md:gap-55 md:gap-y-10">
+    <div className="grid grid-cols-1 gap-6 sm:pl-8  sm:grid-cols-2 lg:grid-cols-4 md:gap-55 md:gap-y-10">
       {infoData.map((item, index) => (
         <div
           key={index}

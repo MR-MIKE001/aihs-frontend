@@ -23,7 +23,7 @@ function Nav() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-8">
         <div className="flex items-center gap-2">
           <img
-            src={logo}
+            src={logo}  
             alt="AHIS Logo"
             className="h-10 w-16"
           />
@@ -90,11 +90,11 @@ function Nav() {
               About
             </Link>
             <Link
-              to="/dashboard"
+              to="/program"
               className="py-1 text-[#a49d9d] hover:text-[#280f75]"
-              onClick={() => handleNavClick("dashboard")}
+              onClick={() => handleNavClick("program")}
             >
-              Dashboard
+              Program
             </Link>
 
             <button

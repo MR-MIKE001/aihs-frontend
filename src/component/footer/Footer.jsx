@@ -12,7 +12,7 @@ function Footer() {
           {/* Top section */}
           <div className="flex flex-col items-center justify-between gap-18 text-center sm:flex-row sm:items-start sm:text-left  ">
             {/* Logo + about + socials */}
-            <div className="flex-1 pl-10 ">
+            <div className="flex-1 ">
               <img src={logo} alt="AIHS Logo" className="h-12 w-auto" />
               <p className="mt-3 text-sm text-gray-400 ">
                 Africa International Housing Show (AIHS) is the largest housing
